@@ -3,7 +3,9 @@ function Cuadro({ url, texto }: { url: string; texto: string }) {
     <div>
       <h2>Cuadro</h2>
       <img className="cuadro-img" src={url} alt={texto} />
-    </div>
+   
+    <p>esto es una prueba de datos</p>
+     </div>
   )
 }
 
